@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="../sty.css">
+
+    <style>
+        h1 {
+          color: #F23005;
+          font-family: "Anton", sans-serif;
+          font-size: 3.5rem;
+        }
+        </style>
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+    <div class="main-container">
+        <div class="left-container">
+            <h1 class="booking1">Book Now!</h1>
+            <div class="shadow-button-set">
+                <li>
+                    
+                    <a class="cs-desc" href="../Index.html"><button>Return To Home Page</button></a>
+                </li>
+                
+            </div>
+        </div>
+        <div class="right-container">
+            <form class="form" action="ticket.html" method="GET">
+                <div class="signup__field">
+                    <label for="first_name" class="label" style="font-weight: bold; font-size: large;">First name:</label>
+                    <input type="text" name="first_name" id="first_name" class="input-field" required>
+                </div>
+                <div class="signup__field">
+                    <label for="last_name" class="label" style="font-weight: bold; font-size: large;">Last name:</label>
+                    <input type="text" name="last_name" id="last_name" class="input-field" required>
+                </div>
+                <div class="signup__field">
+                    <label for="email" class="label" style="font-weight: bold; font-size: large;">Email address:</label>
+                    <input type="email" name="email" id="email" class="input-field" required>
+                </div>
+                <div class="signup__field">
+                    <label for="number_of_guests" class="label" style="font-weight: bold; font-size: large;">Number of guests:</label>
+                    <select name="number_of_guests" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <div class="signup__field">
+                    <label for="date_of_booking" class="label" style="font-weight: bold; font-size: large;">Date of Booking:</label>
+                    <select type="date" name="date_of_booking" id="date_of_booking" class="input-field" required>
+                   
+                        <option value="14/9/2023">14th September 2024</option>
+                        <option value="15/9/2023">15th September 2024</option>
+                        <option value="16/9/2023">16th September 2024</option>
+                        <option value="17/9/2023">17th September 2024</option>
+                        <option value="18/9/2023">18th September 2024</option>
+                        <option value="19/9/2023">19th September 2024</option>
+                        <option value="20/9/2023">20th September 2024</option>
+                      </select>
+ 
+                    </select>
+                </div>
+                <div class="signup__field">
+                    <label for="password" class="label" style="font-weight: bold; font-size: large;">Password:</label>
+                    <input type="password" name="password" id="password" class="input-field" required>
+                </div>
+                <div style="margin-top: 25px; margin-bottom: 25px; width: 300px; height: 35px;font-size: 1.2em; ">
+                    <div class="shadow-button-set">
+                        <li>
+                            
+                            <a class="cs-desc" href="ticket.html"><button>BOOK NOW!</button></a>
+                        </li>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
